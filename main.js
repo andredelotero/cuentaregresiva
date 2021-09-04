@@ -1,7 +1,4 @@
 
-let tiempo = prompt("ingresa la cantidad de minutos");
-let tiempoMinutos = tiempo;
-let tiempoSegundos= 0;
 
 function timer(){
     tiempoMinutos= parseInt(tiempoMinutos);
@@ -40,5 +37,8 @@ if (parseInt(tiempoSegundos)<20){
 }
 
 function dale(){
+    let tiempo = prompt("ingresa la cantidad de minutos");
+    let tiempoMinutos = tiempo;
+    let tiempoSegundos= 0;
     setInterval(timer, 1000);
 }
