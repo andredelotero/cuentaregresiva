@@ -41,6 +41,6 @@ if (parseInt(tiempoSegundos)<20){
 }
 
 function dale(){
-    begin();
+    begin;
     setInterval(timer, 1000);
 }
