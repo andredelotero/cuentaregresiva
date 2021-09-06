@@ -31,7 +31,7 @@ function timer(){
 document.querySelector(".segundos").innerHTML=tiempoSegundos;
 document.querySelector(".minutos").innerHTML=tiempoMinutos;
 
-if (parseInt(tiempoMinutos==0) && parseInt(tiempoSegundos)<20){
+if ((parseInt(tiempoMinutos)==0) && (parseInt(tiempoSegundos)<20)){
     document.querySelector(".cuentaAtras").classList.add("seTermina");
     document.querySelector(".titulo").innerHTML="Se terminó el recreo!!";
 
